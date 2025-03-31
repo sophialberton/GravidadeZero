@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #8f96f1;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    border: 1px solid #a7426a;
+    overflow: hidden;
+}
+
+#floating-object {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    cursor: grab;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+#floating-object:active {
+    cursor: grabbing;
+}   
